@@ -8,7 +8,8 @@ GLOBAL.DEBUG = true;
 sys = require("sys");
 assert = require("assert");
 
-MONGODB_PATH = '/Users/victorpowell/Documents/javascript_includes/nodejs/mongodb-native';
+//change this to wherever you have mongodb-native installed
+MONGODB_PATH = '/Users/victor/Documents/javascript_includes/nodejs/mongodb-native';
 
 var Db = 	require(MONGODB_PATH).Db,
   			Connection = require(MONGODB_PATH).Connection,
